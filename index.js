@@ -26,4 +26,4 @@ app.post("/upload", upload.single("image"), async (req, res) => {
     await unlink(req.file.path)
 })
 
-app.listen(process.env.port || 3000)
+app.listen(process.env.PORT || 3000)
