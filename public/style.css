@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.workspace {
+    display: flex;
+    gap: 5vw;
+}
+
+.canvas {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 75vw;
+    /* margin: auto; */
+}
+
+.colors {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.colors input[type="color"] {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.colors input[type="color"]::-webkit-color-swatch {
+    border-radius: 50%;
+}
+
+.colors input[type="color"]::-moz-color-swatch {
+    border-radius: 50%;
+}
+
+#myCanvas {
+    height: 90vh;
+    width: 80vw;
+    border: 2px solid black;
+}
+
+.btn {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 25px;
+    border: 2px solid rgb(77, 77, 198);
+    border-radius: 10px;
+    padding: 5px;
+    /* margin: 50px; */
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(77, 77, 198);
+}
+
+.nav {
+    background-color: rgb(70, 70, 70);
+    margin-top: 0px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    padding: 10px;
+}
+
+.youranswer {
+    background-color: white;
+    height: 77vh;
+    width: 20vw;
+    color: black;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.ans {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(70, 70, 70);
+    width: 20vw;
+    font-size: 30px;
+    /* justify-content: center; */
+    align-items: center;
+}
