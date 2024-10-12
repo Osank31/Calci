@@ -44,7 +44,7 @@ Calci is a web-based application that allows users to draw handwritten complex e
     npm run dev
     ```
 
-6. Open your browser and go to `http://localhost:3000` to access the app.
+6. Open your browser and go to `http://localhost:3000` to access the app, or visit the live version at [Calci](https://calci-xhu7.onrender.com/).
 
 ## Package Dependencies
 
