@@ -20,7 +20,7 @@ Calci is a web-based application that allows users to draw handwritten complex e
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/Calci.git
+    git clone https://github.com/Osank31/Calci.git
     ```
 
 2. Navigate to the project directory:
