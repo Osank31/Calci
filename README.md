@@ -1,6 +1,24 @@
 # Calci
 
-Calci is a web-based application that allows users to draw handwritten complex equations on a canvas, upload the drawing to the server, and receive an AI-generated result that solves the equation within seconds. The AI processes the image, extracts the equation, and returns the solution on the page.
+**Calci** is a web-based application that allows users to draw handwritten complex equations on a canvas, upload the drawing to the server, and receive an AI-generated result that solves the equation within seconds. The AI processes the image, extracts the equation, and returns the solution on the page.
+
+## How I Got the Idea
+
+I was inspired by Apple's new calculator app for the iPad, which uses AI to interpret handwritten equations, offering suggestions and solving them. I thought I could replicate something similar on a website.
+
+## Project Execution
+
+1. **User Input**: The user draws their equations by hand on the canvas.
+2. **Backend Processing**: When the user clicks the "Calculate" button, the image on the canvas is converted into a Blob and sent to the backend.
+3. **AI Integration**: I used Google's generative AI to interpret the image, extract the equation, and provide the result.
+4. **Result Display**: The AI's response is then displayed in a separate answer box.
+
+### Limitations
+
+- Unlike Apple's app, which provides the solution immediately when the user writes the equals sign, I haven't figured out how to implement real-time equation solving yet.
+- The Apple app displays the answer directly next to the question in the same line, whereas I currently show the result in a separate text box. I’m not sure how to make the display inline.
+
+---
 
 ## Features
 
@@ -46,34 +64,9 @@ Calci is a web-based application that allows users to draw handwritten complex e
 
 6. Open your browser and go to `http://localhost:3000` to access the app, or visit the live version at [Calci](https://calci-xhu7.onrender.com/).
 
-## Package Dependencies
-
-This project uses the following dependencies:
-
-```json
-{
-    "@google/generative-ai": "^0.21.0",
-    "dotenv": "^16.4.5",
-    "express": "^4.21.1",
-    "multer": "^1.4.5-lts.1"
-}
-```
-
-Dev dependencies:
-
-```json
-{
-    "nodemon": "^3.1.7"
-}
-```
-
 ## Usage
 
-1. Draw a complex equation on the canvas.
+1. Write a complex equation on the canvas.
 2. Click the "Calculate" button.
 3. The drawing will be uploaded to the server.
 4. The AI will process the drawing and return a solution, which will be displayed on the page within seconds.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
