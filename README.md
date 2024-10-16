@@ -73,7 +73,3 @@ Dev dependencies:
 2. Click the "Calculate" button.
 3. The drawing will be uploaded to the server.
 4. The AI will process the drawing and return a solution, which will be displayed on the page within seconds.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
