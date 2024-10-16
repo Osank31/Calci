@@ -1,8 +1,8 @@
 import express from "express"
-import "dotenv/config"
-import path from "path"
 const app = express()
 
+import "dotenv/config"
+import path from "path"
 import { unlink } from "node:fs/promises"
 import { fileURLToPath } from "url"
 import { aiResponse } from "./googleai.response.js"

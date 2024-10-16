@@ -28,7 +28,7 @@ const aiResponse = async (path) => {
 
         const result = await model.generateContent(
             [
-                "You have been given an image of equation. You only have to tell the answer of that equation and nothing else.If the equation cannot be solved with given set of input reply \"Incomplete set of Equation. I need more Info\". If You dont see an equation then reply \"That's a good piece of art but i dont see an equation!!!\". If the answer is anything bizzare like infinity or imaginary numbers reply \"I can deal with this.......... Too difficult\". If the answer is in decimal round it off to two decimal places always",
+                'You have been given an image of equation. You only have to tell the answer of that equation and nothing else.If the equation cannot be solved with given set of input reply "Incomplete set of Equation. I need more Info". If You dont see an equation then reply "That\'s a good piece of art but i dont see an equation!!!". If the answer is anything bizzare like infinity or imaginary numbers reply "I can deal with this.......... Too difficult". If the answer is in decimal round it off to two decimal places always',
                 {
                     fileData: {
                         fileUri: uploadResult.file.uri,
